@@ -61,21 +61,4 @@ and delivery performance insights.
 ---
 
 
-## Project Structure
 
-```
-marketplace-funnel-analysis/
-├── data/                          ← raw CSV files (not tracked)
-├── notebook/
-│   ├── funnel-analysis.ipynb      ← main analysis notebook
-│   └── ecommerce.db               ← SQLite database
-├── outputs/
-│   ├── funnel_chart.png
-│   ├── monthly_trend.png
-│   ├── revenue_by_payment.png
-│   ├── delivery_distribution.png
-│   └── orders_heatmap.png
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
